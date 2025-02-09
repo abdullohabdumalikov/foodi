@@ -1,0 +1,80 @@
+.dishes-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dishes__djostik {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.djostik1,
+.djostik2 {
+  border-radius: 50%;
+  background: #efefef;
+  width: 80px;
+  height: 80px;
+  padding: 32px 35px;
+}
+
+.djostik1,
+.djostik2 i {
+  color: #6f6e6e;
+  font-size: 16px;
+  transition: 0.2s all;
+}
+
+.djostik1:hover,
+.djostik2:hover {
+  background: #39db4a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dishes p {
+  color: #ff6868;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24.2px;
+  letter-spacing: 17.5%;
+  margin-bottom: 40px;
+}
+
+.dishes__text h2 {
+  font-weight: 700;
+  width: 580px;
+  font-size: 60px;
+  line-height: 78.91px;
+  letter-spacing: 0%;
+  margin-bottom: 63px;
+}
+
+.dishes-cards {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 40px;
+  box-shadow: 2px 9px 42px 0px #00000014;
+  /* background-color: #ff0000; */
+}
+
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;  
+}
+
+
+.special__djostik{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}

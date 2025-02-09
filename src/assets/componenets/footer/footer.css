@@ -1,0 +1,93 @@
+.foot-logo img {
+  width: 120px;
+}
+
+.foot-logo p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36.13px;
+  letter-spacing: 0%;
+  width: 302px;
+  color: #555;
+}
+
+.foot-text {
+  display: flex;
+  gap: 200px;
+}
+
+.foot1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot-text ul {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.foot-text p {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31.47px;
+  letter-spacing: 0%;
+  color: #000;
+}
+
+.foot-text li {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.05px;
+  letter-spacing: 0%;
+  color: #555;
+  transition: 0.3s all;
+}
+
+.foot-text li a:hover {
+  color: #39db4a;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.foot2 {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 59px;
+  gap: 170px;
+  align-items: center;
+}
+.foot-icons {
+  display: flex;
+  gap: 19px;
+}
+
+.icon {
+  padding: 18px;
+  background: #edffef;
+  color: #484848;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.icon i {
+  font-size: 35px;
+}
+
+.icon:hover {
+  background: #39db4a;
+  color: #fff;
+}
+
+.foot-LBIPC {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26.63px;
+  letter-spacing: 0%;
+  color: #555;
+}

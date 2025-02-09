@@ -1,0 +1,112 @@
+.container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .servis {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: -100px;
+    gap: 100px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    row-gap: 36px;
+    margin-bottom: 250px;
+  }
+  
+  .card {
+    box-shadow: 7px 12px 43px 0px #00000024;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 45px 29px 39px 28px;
+    width: 277px;
+    height: 297.1454772949219px;
+  }
+  
+  .card:hover {
+    animation-name: scale;
+    animation-duration: 2s;
+    animation-direction: normal;
+    cursor: pointer;
+  }
+  
+  @keyframes scale {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.05);
+    }
+  }
+  
+  .card h3 {
+    color: #5fe26c;
+    margin-top: 32px;
+    margin-bottom: 17px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .card p {
+    color: #90bd95;
+    font-size: 20px;
+    font-weight: 600;
+    width: 236px;
+  }
+  
+  .culinary a {
+    color: #ff6868;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .culinary h2 {
+    color: #000;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 53px;
+    margin-bottom: 50px;
+    width: 729px;
+  }
+  
+  .culinary p {
+    color: #555555;
+    font-weight: 500;
+    font-size: 26px;
+    width: 562px;
+    margin-bottom: 53px;
+    width: 652px;
+  }
+  
+  .culinary button {
+    background-color: #39db4a;
+    color: #fff;
+    border: none;
+    padding: 25px 60px;
+    border-radius: 40px;
+    font-size: 26px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .culinary button:hover {
+    box-shadow: -2px 22px 38px 0px #8eff9a80;
+  }
+  
+  .cards1 {
+    display: flex;
+    gap: 36px;
+    margin-bottom: 1px;
+  }
+  .cards2 {
+    display: flex;
+    gap: 36px;
+    margin-top: -180px;
+  }
+  
